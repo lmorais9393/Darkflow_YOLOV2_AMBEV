@@ -21,3 +21,4 @@ This Google colab code is a direct application of darkFlow (https://github.com/t
                    !./flow --model cfg/tiny-yolo-voc-5c.cfg  --imgdir sample_img/ --load 3500 --threshold 0.25 --labels labels.txt --gpu 1.0
                    
                    You can eventually change the threshold to another number
+In V1(threshold = 0.08) running at GPU TESLA K80 the global F score was 83.56%, showing great potential.
